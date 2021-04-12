@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	background-color: #F7E3FF;
+}
+
+main {
+	min-height: 90vh;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	padding: 0 2rem;
+}
+
+h1 {
+	font-family: "metropolisblack", sans-serif;
+	color: #2B1141;
+}
+
+h1 small {
+	font-size: 1.5rem;
+	display: block;
+	font-family: "metropolismedium", sans-serif;
+	text-transform: uppercase;
+	color: #962BB9;
+}
+
+@font-face {
+    font-family: 'metropolisblack';
+    src: url('fonts/metropolis-black-webfont.woff2') format('woff2'),
+         url('fonts/metropolis-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'metropolismedium';
+    src: url('fonts/metropolis-medium-webfont.woff2') format('woff2'),
+         url('fonts/metropolis-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (min-width: 760px) {
+	h1 {
+		font-size: 3rem;
+	}
+}
